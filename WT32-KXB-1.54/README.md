@@ -60,6 +60,21 @@ I (341) cpu_start: Chip rev:         v1.0
 I (346) heap_init: Initializing. RAM available for dynamic allocation:
 I (354) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
 I (359) heap_init: At 3FFB2B70 len 0002D490 (181 KiB): DRAM
-I (366) heap_init: At 3FF
+I (366) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM
+I (372) heap_init: At 40078000 len 00008000 (32 KiB): IRAM
+I (378) heap_init: At 4008DAAC len 00012554 (73 KiB): IRAM
+I (384) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM
+I (392) spi_flash: detected chip: gd
+I (395) spi_flash: flash io: dio
+I (399) cpu_start: Starting scheduler on PRO CPU.
+I (405) spi_bus: SPI2 bus created
+I (408) example_lvgl: spi2 bus create succeed
+W (413) example_lvgl: spi2 Init, but no spi2 io defined
+I (420) spi_bus: SPI2 bus device added, CS=15 Mode=0 Speed=20000000
+I (627) lcd st7789: MADCTL=0
+I (637) lvgl_gui: Alloc memory total size: 61440 Byte
+I (640) lvgl_gui: Start to run LVGL
+I (746) example_lvgl: [APP] IDF version: v4.4.5-104-g8b94183c9c-dirty
+I (746) example_lvgl: [APP] Free memory: 237648 bytes
 ```
 
