@@ -10,7 +10,7 @@
 
 硬件需求：您需要一个串口烧录板，推荐ESP_T02串口烧录板，该串口烧录板也是基于该屏适
 配，通过烧录板供电下载，如下图示例：
-https://github.com/Qixiaoyan6/lvgl/blob/master/d89545b9fdd123eaf2ee0b5b48a3228.png
+![烧录接线图](https://github.com/Qixiaoyan6/lvgl/blob/master/d89545b9fdd123eaf2ee0b5b48a3228.png)
 
 ### 编译和下载
 
